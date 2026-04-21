@@ -1,0 +1,25 @@
+name: ai-environment
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python==3.9
+  - seaborn
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - python-graphviz
+  - transformers==4.49.0
+  - jupyter
+  - pip:
+    - tensorflow_hub
+    - tensorflow_text==2.10.0
+    - tensorflow==2.10.0
+    - datasets
+    - sentence-transformers
+    - accelerate
+    - torch==2.6.0
